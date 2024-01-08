@@ -1,0 +1,38 @@
+h2 {
+    font-family: 'Noto Serif', serif;
+    
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 105px;
+}
+
+.tr1 { 
+    font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
+}
+
+table {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 105px;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+img { 
+    width: 150px;
+    height: 220px;
+    margin: 50px 250px;
+}
+a { font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: blueviolet;
+}
+li {
+font-family: 'Poppins', sans-serif;
+}

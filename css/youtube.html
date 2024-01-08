@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.s {
+    background-color: rgb(200,0,0);
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+.j {
+   background-color: white;
+   border-color: rgb(41,118,211);
+   border-style: solid;
+   border-width: 1px;
+   color:  rgb(41,118,211);
+   height: 35px;
+   width: 70px;
+   border-radius: 3px;
+   cursor: pointer;
+   margin-right: 8px;
+   transition: background-color 0.15s, color 0.15s;
+}
+.t {
+    background-color:rgb(2, 158, 255);
+    color: white;
+    height: 35px;
+    width: 80px;
+    border-radius: 17px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;   
+    transition: box-shawdow 0.15s;
+}
+.s:hover {
+    opacity: 0.8;
+}
+.s:active {
+    opacity: 0.3;
+}
+.j:hover {
+    color:white ;
+    background-color:  rgb(41,118,211);
+}
+.j:active{
+    opacity: 0.7;
+}
+.t:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+    </style>
+</head>
+<body>
+    <button class="s"> SUBSCRIBE</button>
+    <button class="j"> JOIN</button>
+    <button class="t"> Tweet</button>
+</body>
+</html>
